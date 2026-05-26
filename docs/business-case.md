@@ -30,9 +30,9 @@ Current reporting is fragmented across manual station logs, shift rosters, suppo
 - Identify passenger support categories that require process fixes or better station communication.
 - Review monthly performance packs using consistent, documented KPI definitions.
 
-## Portfolio Value
+## Project Value
 
-This project demonstrates:
+The project includes:
 
 - SQL table design and analytical modeling
 - star-schema thinking for BI tools

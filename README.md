@@ -1,6 +1,6 @@
 # TransitOps Analytics
 
-TransitOps Analytics is a realistic BI portfolio project for public transportation and station service operations. It is designed as a Qlik Sense-style internal reporting solution for operations managers, station managers, service coordinators, and passenger support leads.
+TransitOps Analytics is a realistic BI project for public transportation and station service operations. It is designed as a Qlik Sense-style internal reporting solution for operations managers, station managers, service coordinators, and passenger support leads.
 
 The project focuses on operational visibility: station incidents, response times, support cases, staffing coverage, service disruptions, recurring issue patterns, and monthly KPI tracking.
 
@@ -72,6 +72,16 @@ The intended Qlik Sense application contains five sheets:
 4. **Staffing & Shift Coverage**: coverage by station, missed coverage, shift load, and employee workload distribution.
 5. **Passenger Support**: case categories, complaint trends, resolved versus unresolved cases, and average handling time.
 
+## Screenshots
+
+### Executive Overview
+
+![TransitOps Analytics executive overview](assets/screenshots/executive-overview.png)
+
+### Operations Detail
+
+![TransitOps Analytics operations detail](assets/screenshots/operations-detail.png)
+
 ## Core KPIs
 
 - Average response time
@@ -95,4 +105,4 @@ Detailed formulas are documented in [docs/kpi-definitions.md](docs/kpi-definitio
 
 A lightweight static mockup is included in `preview/` to show the intended internal dashboard style. Open [preview/index.html](preview/index.html) in a browser to view it.
 
-This preview is not meant to replace Qlik Sense. It is a portfolio artifact that communicates dashboard structure, KPI framing, and operations-reporting tone.
+This preview is not meant to replace Qlik Sense. It communicates dashboard structure, KPI framing, and operations-reporting tone.
