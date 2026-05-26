@@ -4,6 +4,10 @@ TransitOps Analytics is a realistic BI project for public transportation and sta
 
 The project focuses on operational visibility: station incidents, response times, support cases, staffing coverage, service disruptions, recurring issue patterns, and monthly KPI tracking.
 
+## Live Demo
+
+https://transitops-analytics-qlink.vercel.app/
+
 ## Business Problem
 
 Transit operations teams often work from separate spreadsheets, control-room logs, staffing rosters, and support exports. Managers need one trusted dashboard to answer questions such as:
