@@ -1,0 +1,210 @@
+/*
+TransitOps Analytics Qlik Sense load script
+
+1. Create a data connection named TransitOpsData that points to the repository data/ folder.
+2. Paste this script into the Qlik Sense Data Load Editor.
+3. Reload the app and review the associations model.
+*/
+
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET MoneyFormat='$#,##0.00;-$#,##0.00';
+SET TimeFormat='hh:mm:ss';
+SET DateFormat='YYYY-MM-DD';
+SET TimestampFormat='YYYY-MM-DD hh:mm:ss';
+SET FirstWeekDay=0;
+
+DimStation:
+LOAD
+    station_id,
+    station_name,
+    line_group,
+    city_area,
+    station_type,
+    Num(opened_year) AS opened_year,
+    Num(platform_count) AS platform_count,
+    Num(daily_passenger_volume) AS daily_passenger_volume,
+    risk_band
+FROM [lib://TransitOpsData/dim_station.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+DimIncidentType:
+LOAD
+    incident_type_id,
+    incident_category,
+    incident_type,
+    default_severity,
+    Num(sla_response_minutes) AS sla_response_minutes,
+    Num(sla_resolution_hours) AS sla_resolution_hours,
+    operational_owner
+FROM [lib://TransitOpsData/dim_incident_type.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+DimStaff:
+LOAD
+    staff_id,
+    staff_name,
+    role,
+    home_station_id,
+    secondary_station_id,
+    contract_type,
+    Date(Date#(hire_date, 'YYYY-MM-DD')) AS hire_date,
+    active_flag
+FROM [lib://TransitOpsData/dim_staff.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+DimDate:
+LOAD
+    Num(date_key) AS date_key,
+    Date(Date#(date, 'YYYY-MM-DD')) AS calendar_date,
+    Num(year) AS year,
+    quarter,
+    Num(month) AS month,
+    month_name,
+    month_key,
+    Num(week) AS week,
+    day_of_week,
+    is_weekend,
+    is_public_holiday
+FROM [lib://TransitOpsData/dim_date.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+FactIncidents:
+LOAD
+    incident_id,
+    Num(date_key) AS date_key,
+    station_id,
+    incident_type_id,
+    Timestamp(Timestamp#(opened_at, 'YYYY-MM-DD hh:mm:ss')) AS opened_at,
+    Timestamp(Timestamp#(first_response_at, 'YYYY-MM-DD hh:mm:ss')) AS first_response_at,
+    If(Len(Trim(resolved_at)) = 0, Null(), Timestamp(Timestamp#(resolved_at, 'YYYY-MM-DD hh:mm:ss'))) AS resolved_at,
+    status,
+    severity,
+    Num(response_minutes) AS response_minutes,
+    If(Len(Trim(resolution_minutes)) = 0, Null(), Num(resolution_minutes)) AS resolution_minutes,
+    sla_response_breached_flag,
+    sla_resolution_breached_flag,
+    reported_channel,
+    location_detail,
+    operational_note,
+    repeat_issue_flag
+FROM [lib://TransitOpsData/fact_incidents.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+FactSupportCases:
+LOAD
+    support_case_id,
+    Num(date_key) AS date_key,
+    station_id,
+    Timestamp(Timestamp#(opened_at, 'YYYY-MM-DD hh:mm:ss')) AS case_opened_at,
+    If(Len(Trim(closed_at)) = 0, Null(), Timestamp(Timestamp#(closed_at, 'YYYY-MM-DD hh:mm:ss'))) AS case_closed_at,
+    case_category,
+    case_status,
+    priority,
+    channel,
+    If(Len(Trim(handling_hours)) = 0, Null(), Num(handling_hours)) AS handling_hours,
+    Num(sla_target_hours) AS support_sla_target_hours,
+    sla_breached_flag AS support_sla_breached_flag,
+    repeat_contact_flag
+FROM [lib://TransitOpsData/fact_support_cases.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+FactShifts:
+LOAD
+    shift_id,
+    Num(date_key) AS date_key,
+    Date(Date#(shift_date, 'YYYY-MM-DD')) AS shift_date,
+    station_id,
+    staff_id,
+    shift_type,
+    Time(Time#(scheduled_start, 'hh:mm')) AS scheduled_start,
+    Time(Time#(scheduled_end, 'hh:mm')) AS scheduled_end,
+    Num(planned_hours) AS planned_hours,
+    Num(actual_hours) AS actual_hours,
+    shift_status,
+    missed_coverage_flag
+FROM [lib://TransitOpsData/fact_shifts.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+FactServiceDisruptions:
+LOAD
+    disruption_id,
+    Num(date_key) AS date_key,
+    station_id,
+    line_group AS disruption_line_group,
+    Timestamp(Timestamp#(started_at, 'YYYY-MM-DD hh:mm:ss')) AS disruption_started_at,
+    Timestamp(Timestamp#(ended_at, 'YYYY-MM-DD hh:mm:ss')) AS disruption_ended_at,
+    disruption_reason,
+    owner_group,
+    service_impact,
+    Num(delay_minutes) AS delay_minutes,
+    Num(passengers_estimated_impacted) AS passengers_estimated_impacted
+FROM [lib://TransitOpsData/fact_service_disruptions.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+FactResponseTimes:
+LOAD
+    response_id,
+    source_type,
+    source_id,
+    station_id,
+    Num(date_key) AS date_key,
+    Num(acknowledged_minutes) AS acknowledged_minutes,
+    If(Len(Trim(dispatch_minutes)) = 0, Null(), Num(dispatch_minutes)) AS dispatch_minutes,
+    If(Len(Trim(site_arrival_minutes)) = 0, Null(), Num(site_arrival_minutes)) AS site_arrival_minutes,
+    If(Len(Trim(resolution_minutes)) = 0, Null(), Num(resolution_minutes)) AS response_resolution_minutes,
+    sla_breached_flag AS response_sla_breached_flag
+FROM [lib://TransitOpsData/fact_response_times.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+MonthlyOperationalKPIs:
+LOAD
+    month_key AS kpi_month_key,
+    station_id,
+    Num(incident_count) AS kpi_incident_count,
+    Num(support_case_count) AS kpi_support_case_count,
+    Num(resolved_incident_count) AS kpi_resolved_incident_count,
+    Num(resolved_support_case_count) AS kpi_resolved_support_case_count,
+    Num(open_incident_count) AS kpi_open_incident_count,
+    Num(avg_response_minutes) AS kpi_avg_response_minutes,
+    Num(staffing_coverage_pct) AS kpi_staffing_coverage_pct,
+    Num(incident_resolution_rate_pct) AS kpi_incident_resolution_rate_pct,
+    Num(sla_breach_rate_pct) AS kpi_sla_breach_rate_pct,
+    Num(station_risk_score) AS kpi_station_risk_score,
+    If(Len(Trim(monthly_incident_growth_pct)) = 0, Null(), Num(monthly_incident_growth_pct)) AS kpi_monthly_incident_growth_pct
+FROM [lib://TransitOpsData/monthly_operational_kpis.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+/*
+Suggested master measures:
+
+Total Incidents:
+Count(DISTINCT incident_id)
+
+Average Response Time:
+Avg(response_minutes)
+
+Incident Resolution Rate:
+Count({<status={'Resolved'}>} DISTINCT incident_id) / Count(DISTINCT incident_id)
+
+Support Case Resolution Rate:
+Count({<case_status={'Resolved'}>} DISTINCT support_case_id) / Count(DISTINCT support_case_id)
+
+Staffing Coverage %:
+Sum(actual_hours) / Sum(planned_hours)
+
+SLA Breach Rate:
+Count({<sla_response_breached_flag={'Y'}>} DISTINCT incident_id) / Count(DISTINCT incident_id)
+
+Station Risk Score:
+RangeMin(
+  100,
+  Count(DISTINCT incident_id) * 0.55
+  + Count({<status={'Open','Escalated','In Progress'}>} DISTINCT incident_id) * 2.4
+  + (Count({<sla_response_breached_flag={'Y'}>} DISTINCT incident_id) / Count(DISTINCT incident_id)) * 100 * 0.35
+  + (100 - ((Sum(actual_hours) / Sum(planned_hours)) * 100)) * 0.5
+  + (Count({<repeat_issue_flag={'Y'}>} DISTINCT incident_id) / Count(DISTINCT incident_id)) * 100 * 0.28
+)
+*/
