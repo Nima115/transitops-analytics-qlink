@@ -1,0 +1,268 @@
+disruption_id,date_key,station_id,line_group,started_at,ended_at,disruption_reason,owner_group,service_impact,delay_minutes,passengers_estimated_impacted
+DIS00001,20250102,ST007,Red,2025-01-02 22:09:00,2025-01-02 23:01:00,Police attendance,External,Minor delay,52,861
+DIS00002,20250103,ST003,Green / Red,2025-01-03 05:54:00,2025-01-03 06:40:00,Track obstruction,Infrastructure,Minor delay,46,1226
+DIS00003,20250103,ST016,Green,2025-01-03 12:21:00,2025-01-03 12:41:00,Planned engineering overrun,Engineering,Minor delay,20,165
+DIS00004,20250105,ST001,Blue / Red,2025-01-05 08:04:00,2025-01-05 09:20:00,Power supply restriction,Infrastructure,Moderate delay,76,3644
+DIS00005,20250108,ST002,Blue,2025-01-08 16:02:00,2025-01-08 17:04:00,Planned engineering overrun,Engineering,Severe delay,62,1898
+DIS00006,20250109,ST006,Silver,2025-01-09 22:30:00,2025-01-10 03:29:00,Police attendance,External,Minor delay,299,7646
+DIS00007,20250110,ST001,Blue / Red,2025-01-10 14:42:00,2025-01-10 15:21:00,Police attendance,External,Severe delay,39,2196
+DIS00008,20250111,ST001,Blue / Red,2025-01-11 18:50:00,2025-01-11 19:35:00,Track obstruction,Infrastructure,Minor delay,45,1667
+DIS00009,20250113,ST008,Red,2025-01-13 16:23:00,2025-01-13 16:31:00,Rolling stock fault,Fleet,Minor delay,8,244
+DIS00010,20250113,ST006,Silver,2025-01-13 17:55:00,2025-01-13 19:20:00,Severe weather,Weather,Moderate delay,85,2813
+DIS00011,20250121,ST006,Silver,2025-01-21 18:29:00,2025-01-21 18:50:00,Police attendance,External,Minor delay,21,506
+DIS00012,20250121,ST004,Green,2025-01-21 05:41:00,2025-01-21 06:38:00,Rolling stock fault,Fleet,Moderate delay,57,757
+DIS00013,20250122,ST008,Red,2025-01-22 11:57:00,2025-01-22 12:18:00,Track obstruction,Infrastructure,Minor delay,21,442
+DIS00014,20250122,ST016,Green,2025-01-22 18:24:00,2025-01-22 22:15:00,Severe weather,Weather,Severe delay,231,1562
+DIS00015,20250122,ST008,Red,2025-01-22 09:35:00,2025-01-22 09:53:00,Planned engineering overrun,Engineering,Minor delay,18,423
+DIS00016,20250123,ST007,Red,2025-01-23 20:07:00,2025-01-23 20:15:00,Signal failure,Infrastructure,Moderate delay,8,194
+DIS00017,20250123,ST009,Blue,2025-01-23 09:13:00,2025-01-23 09:43:00,Power supply restriction,Infrastructure,Moderate delay,30,591
+DIS00018,20250125,ST002,Blue,2025-01-25 05:16:00,2025-01-25 05:24:00,Signal failure,Infrastructure,Moderate delay,8,326
+DIS00019,20250127,ST006,Silver,2025-01-27 15:27:00,2025-01-27 15:35:00,Planned engineering overrun,Engineering,Severe delay,8,175
+DIS00020,20250128,ST005,Green,2025-01-28 11:00:00,2025-01-28 11:08:00,Power supply restriction,Infrastructure,Severe delay,8,89
+DIS00021,20250131,ST002,Blue,2025-01-31 14:46:00,2025-01-31 15:34:00,Power supply restriction,Infrastructure,Minor delay,48,1384
+DIS00022,20250204,ST006,Silver,2025-02-04 13:53:00,2025-02-04 14:26:00,Power supply restriction,Infrastructure,Minor delay,33,1104
+DIS00023,20250210,ST007,Red,2025-02-10 19:48:00,2025-02-10 20:03:00,Signal failure,Infrastructure,Minor delay,15,348
+DIS00024,20250214,ST003,Green / Red,2025-02-14 08:41:00,2025-02-14 08:49:00,Track obstruction,Infrastructure,Minor delay,8,167
+DIS00025,20250215,ST010,Blue / Gold,2025-02-15 19:16:00,2025-02-15 19:58:00,Severe weather,Weather,Severe delay,42,1291
+DIS00026,20250215,ST014,Gold,2025-02-15 15:54:00,2025-02-15 16:02:00,Rolling stock fault,Fleet,Moderate delay,8,92
+DIS00027,20250216,ST016,Green,2025-02-16 13:11:00,2025-02-16 13:31:00,Severe weather,Weather,Moderate delay,20,121
+DIS00028,20250216,ST010,Blue / Gold,2025-02-16 18:50:00,2025-02-16 20:01:00,Rolling stock fault,Fleet,Moderate delay,71,2330
+DIS00029,20250216,ST006,Silver,2025-02-16 17:57:00,2025-02-16 19:28:00,Planned engineering overrun,Engineering,Minor delay,91,2818
+DIS00030,20250218,ST007,Red,2025-02-18 10:47:00,2025-02-18 11:07:00,Power supply restriction,Infrastructure,Moderate delay,20,496
+DIS00031,20250218,ST013,Silver,2025-02-18 05:06:00,2025-02-18 05:58:00,Power supply restriction,Infrastructure,Severe delay,52,686
+DIS00032,20250222,ST001,Blue / Red,2025-02-22 08:15:00,2025-02-22 08:52:00,Staff shortage,Operations,Minor delay,37,2365
+DIS00033,20250222,ST003,Green / Red,2025-02-22 06:46:00,2025-02-22 08:17:00,Severe weather,Weather,Moderate delay,91,2473
+DIS00034,20250225,ST001,Blue / Red,2025-02-25 17:34:00,2025-02-25 22:16:00,Police attendance,External,Moderate delay,282,17091
+DIS00035,20250227,ST001,Blue / Red,2025-02-27 09:14:00,2025-02-27 10:11:00,Track obstruction,Infrastructure,Moderate delay,57,3478
+DIS00036,20250227,ST009,Blue,2025-02-27 19:21:00,2025-02-27 20:00:00,Rolling stock fault,Fleet,Moderate delay,39,776
+DIS00037,20250228,ST016,Green,2025-02-28 21:07:00,2025-02-28 22:43:00,Police attendance,External,Minor delay,96,831
+DIS00038,20250303,ST007,Red,2025-03-03 20:15:00,2025-03-04 00:17:00,Severe weather,Weather,Moderate delay,242,4718
+DIS00039,20250305,ST003,Green / Red,2025-03-05 11:36:00,2025-03-05 11:44:00,Signal failure,Infrastructure,Severe delay,8,269
+DIS00040,20250305,ST010,Blue / Gold,2025-03-05 05:59:00,2025-03-05 07:51:00,Planned engineering overrun,Engineering,Minor delay,112,3431
+DIS00041,20250305,ST004,Green,2025-03-05 20:27:00,2025-03-05 20:59:00,Rolling stock fault,Fleet,Moderate delay,32,383
+DIS00042,20250306,ST010,Blue / Gold,2025-03-06 17:04:00,2025-03-06 17:12:00,Planned engineering overrun,Engineering,Minor delay,8,343
+DIS00043,20250306,ST010,Blue / Gold,2025-03-06 22:17:00,2025-03-06 23:33:00,Track obstruction,Infrastructure,Minor delay,76,3518
+DIS00044,20250308,ST010,Blue / Gold,2025-03-08 22:44:00,2025-03-08 23:03:00,Police attendance,External,Minor delay,19,615
+DIS00045,20250308,ST007,Red,2025-03-08 21:14:00,2025-03-08 21:59:00,Track obstruction,Infrastructure,Minor delay,45,982
+DIS00046,20250309,ST009,Blue,2025-03-09 10:28:00,2025-03-09 11:31:00,Severe weather,Weather,Moderate delay,63,1678
+DIS00047,20250310,ST003,Green / Red,2025-03-10 17:45:00,2025-03-10 18:29:00,Severe weather,Weather,Severe delay,44,1409
+DIS00048,20250313,ST015,Silver,2025-03-13 10:41:00,2025-03-13 11:57:00,Rolling stock fault,Fleet,Minor delay,76,860
+DIS00049,20250314,ST002,Blue,2025-03-14 22:55:00,2025-03-15 00:14:00,Signal failure,Infrastructure,Moderate delay,79,2805
+DIS00050,20250315,ST003,Green / Red,2025-03-15 22:34:00,2025-03-15 22:42:00,Track obstruction,Infrastructure,Moderate delay,8,168
+DIS00051,20250318,ST014,Gold,2025-03-18 16:53:00,2025-03-18 17:48:00,Power supply restriction,Infrastructure,Moderate delay,55,865
+DIS00052,20250323,ST006,Silver,2025-03-23 08:24:00,2025-03-23 10:10:00,Staff shortage,Operations,Minor delay,106,2117
+DIS00053,20250324,ST002,Blue,2025-03-24 07:29:00,2025-03-24 07:37:00,Track obstruction,Infrastructure,Moderate delay,8,309
+DIS00054,20250325,ST008,Red,2025-03-25 12:38:00,2025-03-25 18:21:00,Planned engineering overrun,Engineering,Minor delay,343,6517
+DIS00055,20250326,ST002,Blue,2025-03-26 14:31:00,2025-03-26 19:51:00,Rolling stock fault,Fleet,Severe delay,320,8136
+DIS00056,20250327,ST013,Silver,2025-03-27 13:10:00,2025-03-27 14:13:00,Police attendance,External,Minor delay,63,915
+DIS00057,20250403,ST010,Blue / Gold,2025-04-03 06:47:00,2025-04-03 13:59:00,Signal failure,Infrastructure,Minor delay,432,13670
+DIS00058,20250404,ST009,Blue,2025-04-04 16:47:00,2025-04-04 22:27:00,Track obstruction,Infrastructure,Minor delay,340,6383
+DIS00059,20250405,ST013,Silver,2025-04-05 22:42:00,2025-04-05 23:20:00,Severe weather,Weather,Moderate delay,38,524
+DIS00060,20250406,ST008,Red,2025-04-06 22:20:00,2025-04-06 23:23:00,Planned engineering overrun,Engineering,Moderate delay,63,1765
+DIS00061,20250406,ST003,Green / Red,2025-04-06 17:14:00,2025-04-06 18:15:00,Rolling stock fault,Fleet,Severe delay,61,1353
+DIS00062,20250411,ST004,Green,2025-04-11 11:36:00,2025-04-11 12:39:00,Police attendance,External,Minor delay,63,1213
+DIS00063,20250412,ST001,Blue / Red,2025-04-12 22:13:00,2025-04-12 23:00:00,Rolling stock fault,Fleet,Moderate delay,47,1975
+DIS00064,20250413,ST003,Green / Red,2025-04-13 16:17:00,2025-04-13 17:30:00,Planned engineering overrun,Engineering,Minor delay,73,2453
+DIS00065,20250415,ST009,Blue,2025-04-15 11:08:00,2025-04-15 12:32:00,Severe weather,Weather,Moderate delay,84,1944
+DIS00066,20250417,ST001,Blue / Red,2025-04-17 18:50:00,2025-04-17 20:17:00,Power supply restriction,Infrastructure,Minor delay,87,5408
+DIS00067,20250418,ST009,Blue,2025-04-18 19:19:00,2025-04-18 21:04:00,Rolling stock fault,Fleet,Severe delay,105,2130
+DIS00068,20250419,ST003,Green / Red,2025-04-19 11:27:00,2025-04-19 11:47:00,Track obstruction,Infrastructure,Severe delay,20,724
+DIS00069,20250421,ST013,Silver,2025-04-21 15:21:00,2025-04-21 16:18:00,Track obstruction,Infrastructure,Minor delay,57,779
+DIS00070,20250422,ST006,Silver,2025-04-22 14:44:00,2025-04-22 14:53:00,Power supply restriction,Infrastructure,Moderate delay,9,228
+DIS00071,20250423,ST010,Blue / Gold,2025-04-23 17:32:00,2025-04-23 20:42:00,Power supply restriction,Infrastructure,Moderate delay,190,7050
+DIS00072,20250425,ST015,Silver,2025-04-25 17:59:00,2025-04-25 20:58:00,Police attendance,External,Minor delay,179,2342
+DIS00073,20250426,ST009,Blue,2025-04-26 20:08:00,2025-04-27 00:26:00,Staff shortage,Operations,Moderate delay,258,5181
+DIS00074,20250504,ST008,Red,2025-05-04 21:42:00,2025-05-05 02:03:00,Signal failure,Infrastructure,Moderate delay,261,5982
+DIS00075,20250505,ST016,Green,2025-05-05 06:05:00,2025-05-05 06:18:00,Planned engineering overrun,Engineering,Minor delay,13,84
+DIS00076,20250506,ST013,Silver,2025-05-06 06:46:00,2025-05-06 06:54:00,Signal failure,Infrastructure,Moderate delay,8,104
+DIS00077,20250509,ST003,Green / Red,2025-05-09 22:39:00,2025-05-09 23:17:00,Police attendance,External,Moderate delay,38,1086
+DIS00078,20250510,ST008,Red,2025-05-10 11:12:00,2025-05-10 11:20:00,Police attendance,External,Partial closure,8,134
+DIS00079,20250516,ST010,Blue / Gold,2025-05-16 11:08:00,2025-05-16 11:16:00,Police attendance,External,Severe delay,8,230
+DIS00080,20250523,ST011,Gold,2025-05-23 17:40:00,2025-05-23 18:36:00,Track obstruction,Infrastructure,Minor delay,56,518
+DIS00081,20250526,ST002,Blue,2025-05-26 07:01:00,2025-05-26 12:24:00,Planned engineering overrun,Engineering,Severe delay,323,8863
+DIS00082,20250526,ST005,Green,2025-05-26 07:19:00,2025-05-26 09:15:00,Track obstruction,Infrastructure,Minor delay,116,1473
+DIS00083,20250529,ST006,Silver,2025-05-29 12:40:00,2025-05-29 13:02:00,Police attendance,External,Minor delay,22,685
+DIS00084,20250529,ST009,Blue,2025-05-29 21:24:00,2025-05-29 21:59:00,Rolling stock fault,Fleet,Minor delay,35,530
+DIS00085,20250530,ST002,Blue,2025-05-30 17:22:00,2025-05-30 17:37:00,Signal failure,Infrastructure,Minor delay,15,369
+DIS00086,20250530,ST001,Blue / Red,2025-05-30 17:00:00,2025-05-30 17:17:00,Power supply restriction,Infrastructure,Minor delay,17,604
+DIS00087,20250530,ST014,Gold,2025-05-30 18:34:00,2025-05-30 19:46:00,Rolling stock fault,Fleet,Severe delay,72,908
+DIS00088,20250603,ST002,Blue,2025-06-03 19:23:00,2025-06-03 20:24:00,Rolling stock fault,Fleet,Moderate delay,61,2621
+DIS00089,20250607,ST010,Blue / Gold,2025-06-07 18:19:00,2025-06-07 19:07:00,Planned engineering overrun,Engineering,Moderate delay,48,2151
+DIS00090,20250611,ST003,Green / Red,2025-06-11 09:33:00,2025-06-11 11:02:00,Rolling stock fault,Fleet,Severe delay,89,1843
+DIS00091,20250612,ST004,Green,2025-06-12 05:36:00,2025-06-12 05:44:00,Planned engineering overrun,Engineering,Moderate delay,8,191
+DIS00092,20250614,ST010,Blue / Gold,2025-06-14 21:19:00,2025-06-14 21:27:00,Signal failure,Infrastructure,Moderate delay,8,304
+DIS00093,20250614,ST011,Gold,2025-06-14 14:46:00,2025-06-14 16:25:00,Staff shortage,Operations,Moderate delay,99,887
+DIS00094,20250616,ST006,Silver,2025-06-16 16:19:00,2025-06-16 16:27:00,Severe weather,Weather,Severe delay,8,237
+DIS00095,20250620,ST014,Gold,2025-06-20 12:41:00,2025-06-20 13:35:00,Track obstruction,Infrastructure,Moderate delay,54,694
+DIS00096,20250623,ST013,Silver,2025-06-23 10:54:00,2025-06-23 11:31:00,Rolling stock fault,Fleet,Minor delay,37,655
+DIS00097,20250624,ST004,Green,2025-06-24 12:36:00,2025-06-24 17:57:00,Staff shortage,Operations,Minor delay,321,4521
+DIS00098,20250624,ST014,Gold,2025-06-24 19:05:00,2025-06-24 20:15:00,Track obstruction,Infrastructure,Moderate delay,70,1308
+DIS00099,20250625,ST015,Silver,2025-06-25 21:17:00,2025-06-25 22:33:00,Planned engineering overrun,Engineering,Minor delay,76,1202
+DIS00100,20250630,ST014,Gold,2025-06-30 15:04:00,2025-06-30 19:20:00,Track obstruction,Infrastructure,Moderate delay,256,2882
+DIS00101,20250630,ST010,Blue / Gold,2025-06-30 13:24:00,2025-06-30 14:11:00,Planned engineering overrun,Engineering,Severe delay,47,1671
+DIS00102,20250710,ST005,Green,2025-07-10 07:10:00,2025-07-10 08:29:00,Track obstruction,Infrastructure,Minor delay,79,676
+DIS00103,20250710,ST014,Gold,2025-07-10 11:46:00,2025-07-10 12:30:00,Planned engineering overrun,Engineering,Severe delay,44,433
+DIS00104,20250712,ST001,Blue / Red,2025-07-12 05:56:00,2025-07-12 06:21:00,Police attendance,External,Minor delay,25,1035
+DIS00105,20250715,ST012,Gold,2025-07-15 17:24:00,2025-07-15 21:36:00,Power supply restriction,Infrastructure,Moderate delay,252,2386
+DIS00106,20250718,ST015,Silver,2025-07-18 11:34:00,2025-07-18 11:58:00,Staff shortage,Operations,Severe delay,24,362
+DIS00107,20250720,ST006,Silver,2025-07-20 12:33:00,2025-07-20 12:49:00,Power supply restriction,Infrastructure,Minor delay,16,310
+DIS00108,20250722,ST002,Blue,2025-07-22 13:13:00,2025-07-22 13:25:00,Power supply restriction,Infrastructure,Minor delay,12,420
+DIS00109,20250722,ST002,Blue,2025-07-22 18:35:00,2025-07-22 19:12:00,Signal failure,Infrastructure,Moderate delay,37,1349
+DIS00110,20250723,ST008,Red,2025-07-23 21:22:00,2025-07-23 22:30:00,Power supply restriction,Infrastructure,Minor delay,68,1270
+DIS00111,20250726,ST001,Blue / Red,2025-07-26 10:24:00,2025-07-26 11:16:00,Rolling stock fault,Fleet,Minor delay,52,2030
+DIS00112,20250728,ST015,Silver,2025-07-28 06:02:00,2025-07-28 07:35:00,Staff shortage,Operations,Minor delay,93,1040
+DIS00113,20250729,ST013,Silver,2025-07-29 11:35:00,2025-07-29 12:00:00,Power supply restriction,Infrastructure,Moderate delay,25,331
+DIS00114,20250730,ST001,Blue / Red,2025-07-30 07:22:00,2025-07-30 13:09:00,Staff shortage,Operations,Moderate delay,347,17132
+DIS00115,20250731,ST001,Blue / Red,2025-07-31 20:54:00,2025-07-31 21:02:00,Rolling stock fault,Fleet,Minor delay,8,299
+DIS00116,20250801,ST005,Green,2025-08-01 16:25:00,2025-08-01 16:58:00,Staff shortage,Operations,Minor delay,33,401
+DIS00117,20250804,ST004,Green,2025-08-04 19:23:00,2025-08-04 19:39:00,Track obstruction,Infrastructure,Minor delay,16,244
+DIS00118,20250804,ST001,Blue / Red,2025-08-04 12:13:00,2025-08-04 12:21:00,Power supply restriction,Infrastructure,Moderate delay,8,492
+DIS00119,20250805,ST011,Gold,2025-08-05 16:42:00,2025-08-05 17:26:00,Police attendance,External,Moderate delay,44,321
+DIS00120,20250805,ST002,Blue,2025-08-05 11:22:00,2025-08-05 12:03:00,Staff shortage,Operations,Moderate delay,41,1022
+DIS00121,20250806,ST013,Silver,2025-08-06 08:05:00,2025-08-06 09:12:00,Rolling stock fault,Fleet,Minor delay,67,997
+DIS00122,20250809,ST001,Blue / Red,2025-08-09 10:35:00,2025-08-09 11:36:00,Severe weather,Weather,Minor delay,61,2261
+DIS00123,20250809,ST001,Blue / Red,2025-08-09 13:41:00,2025-08-09 14:34:00,Power supply restriction,Infrastructure,Partial closure,53,2164
+DIS00124,20250809,ST007,Red,2025-08-09 22:19:00,2025-08-09 22:27:00,Police attendance,External,Minor delay,8,212
+DIS00125,20250812,ST001,Blue / Red,2025-08-12 09:10:00,2025-08-12 09:43:00,Staff shortage,Operations,Severe delay,33,1180
+DIS00126,20250814,ST001,Blue / Red,2025-08-14 12:09:00,2025-08-14 12:20:00,Severe weather,Weather,Minor delay,11,422
+DIS00127,20250815,ST002,Blue,2025-08-15 06:15:00,2025-08-15 06:23:00,Police attendance,External,Minor delay,8,265
+DIS00128,20250815,ST001,Blue / Red,2025-08-15 12:49:00,2025-08-15 13:33:00,Police attendance,External,Moderate delay,44,3015
+DIS00129,20250817,ST005,Green,2025-08-17 18:54:00,2025-08-17 20:06:00,Police attendance,External,Minor delay,72,523
+DIS00130,20250819,ST015,Silver,2025-08-19 10:07:00,2025-08-19 10:48:00,Staff shortage,Operations,Moderate delay,41,828
+DIS00131,20250820,ST010,Blue / Gold,2025-08-20 06:18:00,2025-08-20 07:39:00,Planned engineering overrun,Engineering,Minor delay,81,3771
+DIS00132,20250821,ST015,Silver,2025-08-21 21:50:00,2025-08-21 22:40:00,Staff shortage,Operations,Minor delay,50,756
+DIS00133,20250826,ST014,Gold,2025-08-26 19:58:00,2025-08-26 21:28:00,Power supply restriction,Infrastructure,Moderate delay,90,958
+DIS00134,20250827,ST003,Green / Red,2025-08-27 11:37:00,2025-08-27 13:15:00,Track obstruction,Infrastructure,Minor delay,98,2541
+DIS00135,20250902,ST005,Green,2025-09-02 08:05:00,2025-09-02 08:36:00,Police attendance,External,Moderate delay,31,263
+DIS00136,20250905,ST006,Silver,2025-09-05 22:22:00,2025-09-06 00:14:00,Power supply restriction,Infrastructure,Moderate delay,112,2932
+DIS00137,20250906,ST006,Silver,2025-09-06 21:27:00,2025-09-06 22:52:00,Rolling stock fault,Fleet,Minor delay,85,2685
+DIS00138,20250906,ST005,Green,2025-09-06 20:26:00,2025-09-06 21:09:00,Police attendance,External,Minor delay,43,427
+DIS00139,20250910,ST002,Blue,2025-09-10 08:12:00,2025-09-10 10:09:00,Planned engineering overrun,Engineering,Minor delay,117,3403
+DIS00140,20250912,ST003,Green / Red,2025-09-12 05:43:00,2025-09-12 06:57:00,Power supply restriction,Infrastructure,Moderate delay,74,1943
+DIS00141,20250915,ST016,Green,2025-09-15 11:32:00,2025-09-15 12:37:00,Rolling stock fault,Fleet,Minor delay,65,545
+DIS00142,20250917,ST010,Blue / Gold,2025-09-17 07:21:00,2025-09-17 08:18:00,Planned engineering overrun,Engineering,Minor delay,57,2774
+DIS00143,20250918,ST009,Blue,2025-09-18 21:13:00,2025-09-18 21:48:00,Track obstruction,Infrastructure,Severe delay,35,714
+DIS00144,20250920,ST015,Silver,2025-09-20 14:13:00,2025-09-20 14:24:00,Signal failure,Infrastructure,Severe delay,11,120
+DIS00145,20250920,ST001,Blue / Red,2025-09-20 09:27:00,2025-09-20 09:35:00,Planned engineering overrun,Engineering,Minor delay,8,444
+DIS00146,20250921,ST015,Silver,2025-09-21 22:59:00,2025-09-22 00:00:00,Police attendance,External,Moderate delay,61,820
+DIS00147,20250922,ST010,Blue / Gold,2025-09-22 16:35:00,2025-09-22 16:51:00,Signal failure,Infrastructure,Minor delay,16,448
+DIS00148,20250924,ST006,Silver,2025-09-24 18:52:00,2025-09-24 19:01:00,Planned engineering overrun,Engineering,Moderate delay,9,178
+DIS00149,20250924,ST013,Silver,2025-09-24 13:10:00,2025-09-24 14:28:00,Staff shortage,Operations,Moderate delay,78,1251
+DIS00150,20250924,ST015,Silver,2025-09-24 14:39:00,2025-09-24 16:23:00,Planned engineering overrun,Engineering,Moderate delay,104,1364
+DIS00151,20250925,ST010,Blue / Gold,2025-09-25 18:25:00,2025-09-25 19:59:00,Rolling stock fault,Fleet,Moderate delay,94,3042
+DIS00152,20250929,ST012,Gold,2025-09-29 08:58:00,2025-09-29 10:10:00,Track obstruction,Infrastructure,Moderate delay,72,635
+DIS00153,20251001,ST007,Red,2025-10-01 10:58:00,2025-10-01 11:50:00,Staff shortage,Operations,Minor delay,52,832
+DIS00154,20251001,ST007,Red,2025-10-01 13:33:00,2025-10-01 13:41:00,Severe weather,Weather,Minor delay,8,182
+DIS00155,20251010,ST007,Red,2025-10-10 12:35:00,2025-10-10 12:43:00,Rolling stock fault,Fleet,Severe delay,8,203
+DIS00156,20251012,ST008,Red,2025-10-12 12:55:00,2025-10-12 13:03:00,Power supply restriction,Infrastructure,Moderate delay,8,141
+DIS00157,20251013,ST014,Gold,2025-10-13 17:21:00,2025-10-13 18:03:00,Staff shortage,Operations,Severe delay,42,466
+DIS00158,20251013,ST001,Blue / Red,2025-10-13 20:40:00,2025-10-13 20:48:00,Rolling stock fault,Fleet,Moderate delay,8,349
+DIS00159,20251013,ST007,Red,2025-10-13 17:15:00,2025-10-13 18:24:00,Rolling stock fault,Fleet,Minor delay,69,1080
+DIS00160,20251015,ST010,Blue / Gold,2025-10-15 05:14:00,2025-10-15 05:22:00,Staff shortage,Operations,Moderate delay,8,326
+DIS00161,20251015,ST008,Red,2025-10-15 19:40:00,2025-10-15 20:26:00,Staff shortage,Operations,Moderate delay,46,878
+DIS00162,20251016,ST007,Red,2025-10-16 13:56:00,2025-10-16 17:31:00,Planned engineering overrun,Engineering,Minor delay,215,4412
+DIS00163,20251018,ST009,Blue,2025-10-18 09:34:00,2025-10-18 11:15:00,Track obstruction,Infrastructure,Minor delay,101,1646
+DIS00164,20251021,ST001,Blue / Red,2025-10-21 12:57:00,2025-10-21 13:30:00,Rolling stock fault,Fleet,Moderate delay,33,1499
+DIS00165,20251024,ST001,Blue / Red,2025-10-24 13:26:00,2025-10-24 16:04:00,Staff shortage,Operations,Moderate delay,158,10550
+DIS00166,20251024,ST010,Blue / Gold,2025-10-24 09:54:00,2025-10-24 10:57:00,Power supply restriction,Infrastructure,Minor delay,63,2052
+DIS00167,20251026,ST003,Green / Red,2025-10-26 14:40:00,2025-10-26 16:02:00,Rolling stock fault,Fleet,Moderate delay,82,1638
+DIS00168,20251026,ST008,Red,2025-10-26 11:33:00,2025-10-26 11:56:00,Staff shortage,Operations,Minor delay,23,414
+DIS00169,20251027,ST004,Green,2025-10-27 12:44:00,2025-10-27 12:52:00,Signal failure,Infrastructure,Moderate delay,8,124
+DIS00170,20251028,ST007,Red,2025-10-28 05:03:00,2025-10-28 05:24:00,Staff shortage,Operations,Severe delay,21,347
+DIS00171,20251029,ST003,Green / Red,2025-10-29 15:38:00,2025-10-29 15:46:00,Police attendance,External,Moderate delay,8,190
+DIS00172,20251030,ST004,Green,2025-10-30 19:10:00,2025-10-30 19:35:00,Rolling stock fault,Fleet,Minor delay,25,301
+DIS00173,20251101,ST001,Blue / Red,2025-11-01 07:08:00,2025-11-01 07:20:00,Staff shortage,Operations,Minor delay,12,520
+DIS00174,20251102,ST010,Blue / Gold,2025-11-02 18:12:00,2025-11-02 18:37:00,Planned engineering overrun,Engineering,Minor delay,25,894
+DIS00175,20251104,ST006,Silver,2025-11-04 09:30:00,2025-11-04 11:07:00,Severe weather,Weather,Minor delay,97,2583
+DIS00176,20251104,ST014,Gold,2025-11-04 18:07:00,2025-11-04 19:36:00,Staff shortage,Operations,Moderate delay,89,849
+DIS00177,20251104,ST001,Blue / Red,2025-11-04 07:38:00,2025-11-04 08:10:00,Track obstruction,Infrastructure,Severe delay,32,2239
+DIS00178,20251112,ST007,Red,2025-11-12 09:02:00,2025-11-12 10:21:00,Track obstruction,Infrastructure,Minor delay,79,2178
+DIS00179,20251113,ST002,Blue,2025-11-13 16:04:00,2025-11-13 16:12:00,Power supply restriction,Infrastructure,Minor delay,8,331
+DIS00180,20251115,ST015,Silver,2025-11-15 10:26:00,2025-11-15 12:10:00,Power supply restriction,Infrastructure,Minor delay,104,1757
+DIS00181,20251117,ST015,Silver,2025-11-17 13:51:00,2025-11-17 13:59:00,Staff shortage,Operations,Partial closure,8,112
+DIS00182,20251118,ST015,Silver,2025-11-18 11:33:00,2025-11-18 11:58:00,Power supply restriction,Infrastructure,Partial closure,25,327
+DIS00183,20251119,ST012,Gold,2025-11-19 21:30:00,2025-11-19 21:38:00,Rolling stock fault,Fleet,Severe delay,8,66
+DIS00184,20251120,ST008,Red,2025-11-20 10:59:00,2025-11-20 11:07:00,Signal failure,Infrastructure,Moderate delay,8,130
+DIS00185,20251121,ST006,Silver,2025-11-21 19:15:00,2025-11-21 20:41:00,Track obstruction,Infrastructure,Minor delay,86,2842
+DIS00186,20251122,ST004,Green,2025-11-22 11:17:00,2025-11-22 12:29:00,Rolling stock fault,Fleet,Moderate delay,72,1284
+DIS00187,20251125,ST002,Blue,2025-11-25 08:37:00,2025-11-25 08:45:00,Power supply restriction,Infrastructure,Minor delay,8,370
+DIS00188,20251201,ST010,Blue / Gold,2025-12-01 18:43:00,2025-12-01 18:51:00,Police attendance,External,Severe delay,8,311
+DIS00189,20251201,ST008,Red,2025-12-01 13:35:00,2025-12-01 13:58:00,Rolling stock fault,Fleet,Minor delay,23,521
+DIS00190,20251204,ST014,Gold,2025-12-04 09:44:00,2025-12-04 10:26:00,Track obstruction,Infrastructure,Minor delay,42,772
+DIS00191,20251206,ST013,Silver,2025-12-06 18:58:00,2025-12-06 22:34:00,Power supply restriction,Infrastructure,Moderate delay,216,4389
+DIS00192,20251207,ST005,Green,2025-12-07 13:18:00,2025-12-07 13:26:00,Police attendance,External,Minor delay,8,60
+DIS00193,20251208,ST002,Blue,2025-12-08 18:38:00,2025-12-08 19:00:00,Planned engineering overrun,Engineering,Moderate delay,22,933
+DIS00194,20251213,ST001,Blue / Red,2025-12-13 08:32:00,2025-12-13 09:25:00,Rolling stock fault,Fleet,Severe delay,53,2737
+DIS00195,20251213,ST008,Red,2025-12-13 18:32:00,2025-12-13 18:44:00,Severe weather,Weather,Moderate delay,12,209
+DIS00196,20251214,ST005,Green,2025-12-14 09:16:00,2025-12-14 10:37:00,Severe weather,Weather,Minor delay,81,595
+DIS00197,20251216,ST015,Silver,2025-12-16 20:29:00,2025-12-16 21:55:00,Rolling stock fault,Fleet,Minor delay,86,1034
+DIS00198,20251216,ST015,Silver,2025-12-16 07:56:00,2025-12-16 09:45:00,Power supply restriction,Infrastructure,Minor delay,109,1481
+DIS00199,20251216,ST012,Gold,2025-12-16 06:02:00,2025-12-16 07:10:00,Track obstruction,Infrastructure,Moderate delay,68,728
+DIS00200,20251219,ST001,Blue / Red,2025-12-19 16:41:00,2025-12-19 17:12:00,Track obstruction,Infrastructure,Minor delay,31,1306
+DIS00201,20251222,ST010,Blue / Gold,2025-12-22 07:45:00,2025-12-22 07:57:00,Police attendance,External,Moderate delay,12,561
+DIS00202,20251227,ST001,Blue / Red,2025-12-27 18:03:00,2025-12-27 22:05:00,Track obstruction,Infrastructure,Moderate delay,242,11750
+DIS00203,20251227,ST009,Blue,2025-12-27 09:30:00,2025-12-27 10:23:00,Staff shortage,Operations,Partial closure,53,905
+DIS00204,20251231,ST008,Red,2025-12-31 13:48:00,2025-12-31 14:20:00,Staff shortage,Operations,Minor delay,32,920
+DIS00205,20260103,ST007,Red,2026-01-03 13:05:00,2026-01-03 13:32:00,Planned engineering overrun,Engineering,Minor delay,27,473
+DIS00206,20260106,ST006,Silver,2026-01-06 09:39:00,2026-01-06 10:24:00,Rolling stock fault,Fleet,Minor delay,45,827
+DIS00207,20260107,ST001,Blue / Red,2026-01-07 05:13:00,2026-01-07 06:19:00,Police attendance,External,Minor delay,66,3689
+DIS00208,20260108,ST001,Blue / Red,2026-01-08 16:09:00,2026-01-08 17:34:00,Planned engineering overrun,Engineering,Minor delay,85,3611
+DIS00209,20260108,ST005,Green,2026-01-08 13:28:00,2026-01-08 14:39:00,Track obstruction,Infrastructure,Severe delay,71,735
+DIS00210,20260108,ST013,Silver,2026-01-08 20:12:00,2026-01-08 21:22:00,Planned engineering overrun,Engineering,Minor delay,70,919
+DIS00211,20260110,ST007,Red,2026-01-10 14:39:00,2026-01-10 17:43:00,Severe weather,Weather,Severe delay,184,2679
+DIS00212,20260114,ST003,Green / Red,2026-01-14 16:10:00,2026-01-14 17:04:00,Police attendance,External,Severe delay,54,1203
+DIS00213,20260114,ST004,Green,2026-01-14 18:45:00,2026-01-14 19:33:00,Severe weather,Weather,Minor delay,48,803
+DIS00214,20260114,ST007,Red,2026-01-14 22:35:00,2026-01-14 22:43:00,Severe weather,Weather,Moderate delay,8,189
+DIS00215,20260115,ST005,Green,2026-01-15 11:02:00,2026-01-15 11:10:00,Power supply restriction,Infrastructure,Partial closure,8,66
+DIS00216,20260116,ST008,Red,2026-01-16 11:14:00,2026-01-16 12:53:00,Power supply restriction,Infrastructure,Severe delay,99,1618
+DIS00217,20260124,ST006,Silver,2026-01-24 09:18:00,2026-01-24 09:43:00,Police attendance,External,Severe delay,25,574
+DIS00218,20260124,ST008,Red,2026-01-24 05:34:00,2026-01-24 07:12:00,Signal failure,Infrastructure,Minor delay,98,1582
+DIS00219,20260129,ST005,Green,2026-01-29 22:34:00,2026-01-29 22:42:00,Power supply restriction,Infrastructure,Partial closure,8,104
+DIS00220,20260130,ST016,Green,2026-01-30 14:10:00,2026-01-30 14:41:00,Signal failure,Infrastructure,Moderate delay,31,329
+DIS00221,20260203,ST008,Red,2026-02-03 18:07:00,2026-02-03 18:15:00,Track obstruction,Infrastructure,Minor delay,8,128
+DIS00222,20260206,ST003,Green / Red,2026-02-06 06:45:00,2026-02-06 13:47:00,Signal failure,Infrastructure,Partial closure,422,13576
+DIS00223,20260207,ST002,Blue,2026-02-07 21:21:00,2026-02-07 22:04:00,Track obstruction,Infrastructure,Minor delay,43,1185
+DIS00224,20260208,ST010,Blue / Gold,2026-02-08 11:06:00,2026-02-08 12:37:00,Police attendance,External,Moderate delay,91,4952
+DIS00225,20260211,ST008,Red,2026-02-11 16:25:00,2026-02-11 16:33:00,Staff shortage,Operations,Minor delay,8,170
+DIS00226,20260213,ST004,Green,2026-02-13 21:51:00,2026-02-13 23:14:00,Track obstruction,Infrastructure,Severe delay,83,1404
+DIS00227,20260218,ST007,Red,2026-02-18 19:31:00,2026-02-18 20:41:00,Severe weather,Weather,Severe delay,70,1046
+DIS00228,20260220,ST008,Red,2026-02-20 15:54:00,2026-02-20 16:31:00,Severe weather,Weather,Minor delay,37,604
+DIS00229,20260221,ST007,Red,2026-02-21 18:27:00,2026-02-21 18:47:00,Staff shortage,Operations,Minor delay,20,356
+DIS00230,20260222,ST015,Silver,2026-02-22 20:23:00,2026-02-22 20:40:00,Rolling stock fault,Fleet,Minor delay,17,251
+DIS00231,20260227,ST009,Blue,2026-02-27 09:36:00,2026-02-27 09:59:00,Power supply restriction,Infrastructure,Severe delay,23,438
+DIS00232,20260227,ST002,Blue,2026-02-27 18:04:00,2026-02-27 19:45:00,Planned engineering overrun,Engineering,Severe delay,101,4325
+DIS00233,20260302,ST004,Green,2026-03-02 11:21:00,2026-03-02 12:07:00,Police attendance,External,Severe delay,46,603
+DIS00234,20260302,ST012,Gold,2026-03-02 06:56:00,2026-03-02 07:59:00,Severe weather,Weather,Severe delay,63,632
+DIS00235,20260302,ST007,Red,2026-03-02 17:24:00,2026-03-02 18:42:00,Severe weather,Weather,Severe delay,78,1808
+DIS00236,20260306,ST010,Blue / Gold,2026-03-06 17:46:00,2026-03-06 18:03:00,Power supply restriction,Infrastructure,Severe delay,17,470
+DIS00237,20260306,ST002,Blue,2026-03-06 07:00:00,2026-03-06 08:06:00,Staff shortage,Operations,Moderate delay,66,1975
+DIS00238,20260307,ST010,Blue / Gold,2026-03-07 14:13:00,2026-03-07 15:40:00,Power supply restriction,Infrastructure,Moderate delay,87,2739
+DIS00239,20260309,ST006,Silver,2026-03-09 08:41:00,2026-03-09 09:35:00,Power supply restriction,Infrastructure,Moderate delay,54,1698
+DIS00240,20260311,ST004,Green,2026-03-11 06:16:00,2026-03-11 07:25:00,Track obstruction,Infrastructure,Moderate delay,69,867
+DIS00241,20260312,ST005,Green,2026-03-12 18:44:00,2026-03-12 19:43:00,Track obstruction,Infrastructure,Partial closure,59,432
+DIS00242,20260314,ST004,Green,2026-03-14 20:06:00,2026-03-15 00:23:00,Track obstruction,Infrastructure,Moderate delay,257,3240
+DIS00243,20260324,ST012,Gold,2026-03-24 06:02:00,2026-03-24 06:57:00,Rolling stock fault,Fleet,Moderate delay,55,364
+DIS00244,20260326,ST013,Silver,2026-03-26 11:14:00,2026-03-26 12:06:00,Staff shortage,Operations,Severe delay,52,681
+DIS00245,20260331,ST009,Blue,2026-03-31 21:38:00,2026-03-31 23:07:00,Track obstruction,Infrastructure,Partial closure,89,1367
+DIS00246,20260402,ST015,Silver,2026-04-02 22:05:00,2026-04-02 23:15:00,Planned engineering overrun,Engineering,Minor delay,70,987
+DIS00247,20260403,ST009,Blue,2026-04-03 19:41:00,2026-04-03 21:49:00,Police attendance,External,Minor delay,128,3324
+DIS00248,20260403,ST001,Blue / Red,2026-04-03 18:21:00,2026-04-03 18:37:00,Track obstruction,Infrastructure,Minor delay,16,660
+DIS00249,20260404,ST016,Green,2026-04-04 18:46:00,2026-04-04 19:06:00,Rolling stock fault,Fleet,Minor delay,20,140
+DIS00250,20260405,ST014,Gold,2026-04-05 21:46:00,2026-04-05 23:05:00,Police attendance,External,Minor delay,79,925
+DIS00251,20260405,ST014,Gold,2026-04-05 12:53:00,2026-04-05 16:46:00,Planned engineering overrun,Engineering,Moderate delay,233,2809
+DIS00252,20260409,ST016,Green,2026-04-09 10:39:00,2026-04-09 10:47:00,Police attendance,External,Minor delay,8,85
+DIS00253,20260409,ST015,Silver,2026-04-09 16:53:00,2026-04-09 17:09:00,Power supply restriction,Infrastructure,Minor delay,16,230
+DIS00254,20260410,ST014,Gold,2026-04-10 10:13:00,2026-04-10 11:08:00,Rolling stock fault,Fleet,Moderate delay,55,743
+DIS00255,20260413,ST006,Silver,2026-04-13 10:54:00,2026-04-13 11:02:00,Signal failure,Infrastructure,Severe delay,8,208
+DIS00256,20260416,ST012,Gold,2026-04-16 16:27:00,2026-04-16 17:58:00,Police attendance,External,Minor delay,91,574
+DIS00257,20260416,ST006,Silver,2026-04-16 10:08:00,2026-04-16 10:50:00,Signal failure,Infrastructure,Minor delay,42,843
+DIS00258,20260418,ST001,Blue / Red,2026-04-18 15:52:00,2026-04-18 20:46:00,Track obstruction,Infrastructure,Partial closure,294,15077
+DIS00259,20260420,ST007,Red,2026-04-20 09:47:00,2026-04-20 11:36:00,Police attendance,External,Moderate delay,109,2210
+DIS00260,20260422,ST006,Silver,2026-04-22 22:14:00,2026-04-23 02:17:00,Rolling stock fault,Fleet,Minor delay,243,4735
+DIS00261,20260424,ST012,Gold,2026-04-24 17:18:00,2026-04-24 17:26:00,Signal failure,Infrastructure,Minor delay,8,62
+DIS00262,20260425,ST001,Blue / Red,2026-04-25 07:13:00,2026-04-25 08:32:00,Planned engineering overrun,Engineering,Severe delay,79,2948
+DIS00263,20260425,ST008,Red,2026-04-25 16:48:00,2026-04-25 17:05:00,Police attendance,External,Moderate delay,17,489
+DIS00264,20260425,ST015,Silver,2026-04-25 07:27:00,2026-04-25 07:56:00,Police attendance,External,Moderate delay,29,345
+DIS00265,20260426,ST013,Silver,2026-04-26 20:49:00,2026-04-26 21:54:00,Severe weather,Weather,Moderate delay,65,1222
+DIS00266,20260426,ST010,Blue / Gold,2026-04-26 11:02:00,2026-04-26 11:57:00,Planned engineering overrun,Engineering,Severe delay,55,1974
+DIS00267,20260427,ST004,Green,2026-04-27 14:51:00,2026-04-27 15:05:00,Staff shortage,Operations,Minor delay,14,236

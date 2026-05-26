@@ -1,0 +1,13 @@
+incident_type_id,incident_category,incident_type,default_severity,sla_response_minutes,sla_resolution_hours,operational_owner
+IT001,Safety,Platform crowding,Major,12,4,Station Operations
+IT002,Safety,Medical assistance,Critical,6,2,Station Operations
+IT003,Security,Anti-social behaviour,Major,10,6,Security Control
+IT004,Security,Suspicious package,Critical,5,3,Security Control
+IT005,Asset,Escalator out of service,Moderate,30,24,Facilities
+IT006,Asset,Lift unavailable,Major,20,18,Facilities
+IT007,Service,Train holding at platform,Moderate,15,3,Service Control
+IT008,Service,Bus replacement queueing,Major,12,5,Service Control
+IT009,Customer,Ticketing gate failure,Moderate,25,12,Revenue Protection
+IT010,Customer,Passenger information display fault,Minor,45,24,Digital Operations
+IT011,Cleaning,Spill or biohazard,Moderate,20,8,Station Cleaning
+IT012,Weather,Water ingress,Major,15,10,Facilities

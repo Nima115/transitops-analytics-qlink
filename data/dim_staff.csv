@@ -1,0 +1,65 @@
+staff_id,staff_name,role,home_station_id,secondary_station_id,contract_type,hire_date,active_flag
+EMP0001,Leila Dahl,Platform Assistant,ST014,ST013,Full-time,2018-02-12,N
+EMP0002,Oskar Andersson,Platform Assistant,ST013,ST014,Agency,2017-06-04,N
+EMP0003,Elias Dahl,Revenue Protection Officer,ST009,ST007,Part-time,2020-08-22,Y
+EMP0004,Amina Muller,Customer Support Officer,ST002,ST007,Full-time,2019-02-14,Y
+EMP0005,Erik Larsson,Platform Assistant,ST011,ST009,Part-time,2022-06-25,Y
+EMP0006,Erik Dahl,Customer Support Officer,ST003,ST011,Full-time,2019-04-15,Y
+EMP0007,Maya Muller,Platform Assistant,ST007,ST012,Full-time,2017-05-19,Y
+EMP0008,Jonas Muller,Maintenance Technician,ST009,ST003,Full-time,2019-04-10,Y
+EMP0009,Erik Costa,Maintenance Technician,ST006,ST002,Full-time,2022-12-01,Y
+EMP0010,Jonas Sharma,Platform Assistant,ST002,ST016,Full-time,2020-10-30,Y
+EMP0011,Hanna Nyberg,Service Coordinator,ST010,ST016,Full-time,2022-08-20,Y
+EMP0012,Theo Patel,Station Manager,ST001,ST015,Full-time,2021-09-02,Y
+EMP0013,Leila Andersson,Platform Assistant,ST014,ST006,Part-time,2016-05-15,Y
+EMP0014,Jonas Berg,Security Liaison,ST016,ST005,Full-time,2021-01-20,Y
+EMP0015,Elias Ali,Service Coordinator,ST005,ST012,Full-time,2021-07-21,Y
+EMP0016,Noah Larsson,Platform Assistant,ST006,ST013,Full-time,2021-02-03,Y
+EMP0017,Clara Ali,Customer Support Officer,ST004,ST012,Part-time,2019-01-04,Y
+EMP0018,Noah Ali,Station Manager,ST007,ST015,Full-time,2021-08-21,Y
+EMP0019,Clara Berg,Platform Assistant,ST014,ST010,Full-time,2022-02-15,Y
+EMP0020,Jonas Johansson,Platform Assistant,ST011,ST004,Part-time,2021-07-02,Y
+EMP0021,Elias Costa,Maintenance Technician,ST009,ST004,Agency,2018-08-29,N
+EMP0022,Maya Johansson,Platform Assistant,ST008,ST006,Part-time,2023-07-10,Y
+EMP0023,Oskar Larsson,Platform Assistant,ST008,ST012,Part-time,2021-01-10,Y
+EMP0024,Maya Johansson,Platform Assistant,ST006,ST008,Relief,2021-08-01,Y
+EMP0025,Priya Nyberg,Service Coordinator,ST004,ST007,Full-time,2017-02-23,N
+EMP0026,Clara Berg,Platform Assistant,ST015,ST008,Relief,2023-10-08,Y
+EMP0027,Nora Costa,Customer Support Officer,ST005,ST010,Full-time,2020-09-21,Y
+EMP0028,Theo Costa,Station Manager,ST001,ST006,Full-time,2021-04-18,Y
+EMP0029,Amina Dahl,Platform Assistant,ST012,ST003,Agency,2022-02-03,Y
+EMP0030,Jonas Johansson,Platform Assistant,ST015,ST009,Full-time,2020-09-17,Y
+EMP0031,Noah Costa,Maintenance Technician,ST010,ST014,Full-time,2020-06-05,Y
+EMP0032,Oskar Hassan,Revenue Protection Officer,ST016,ST005,Relief,2021-11-13,Y
+EMP0033,Jonas Dahl,Maintenance Technician,ST008,ST007,Relief,2022-05-29,Y
+EMP0034,Theo Larsson,Service Coordinator,ST012,ST013,Part-time,2023-06-25,Y
+EMP0035,Amina Ali,Security Liaison,ST005,ST001,Full-time,2022-06-19,N
+EMP0036,Priya Svensson,Platform Assistant,ST009,ST002,Part-time,2024-09-01,Y
+EMP0037,Noah Ali,Platform Assistant,ST009,ST008,Agency,2021-04-07,Y
+EMP0038,Jonas Nordin,Platform Assistant,ST014,ST012,Part-time,2024-08-30,Y
+EMP0039,Erik Sharma,Revenue Protection Officer,ST002,ST005,Full-time,2016-05-13,Y
+EMP0040,Erik Patel,Maintenance Technician,ST001,ST005,Part-time,2024-02-24,Y
+EMP0041,Liam Patel,Customer Support Officer,ST012,ST011,Full-time,2021-04-28,Y
+EMP0042,Oskar Hassan,Platform Assistant,ST008,ST010,Full-time,2018-08-17,Y
+EMP0043,Amina Nordin,Platform Assistant,ST008,ST003,Part-time,2023-05-03,N
+EMP0044,Erik Khan,Platform Assistant,ST006,ST015,Part-time,2019-04-27,Y
+EMP0045,Priya Costa,Platform Assistant,ST011,ST005,Part-time,2022-03-15,Y
+EMP0046,Theo Andersson,Platform Assistant,ST012,ST007,Full-time,2016-06-27,Y
+EMP0047,Theo Berg,Customer Support Officer,ST001,ST015,Full-time,2018-05-29,Y
+EMP0048,Nora Patel,Service Coordinator,ST008,ST002,Part-time,2016-08-22,Y
+EMP0049,Erik Khan,Station Manager,ST008,ST003,Part-time,2024-02-04,Y
+EMP0050,Oskar Dahl,Customer Support Officer,ST012,ST013,Agency,2024-10-10,Y
+EMP0051,Clara Patel,Customer Support Officer,ST003,ST009,Full-time,2016-06-25,Y
+EMP0052,Clara Hassan,Customer Support Officer,ST016,ST013,Full-time,2017-11-10,Y
+EMP0053,Theo Svensson,Service Coordinator,ST015,ST010,Full-time,2021-10-30,Y
+EMP0054,Sofia Andersson,Customer Support Officer,ST004,ST011,Full-time,2021-11-14,Y
+EMP0055,Liam Svensson,Customer Support Officer,ST003,ST009,Full-time,2022-03-14,Y
+EMP0056,Leila Svensson,Security Liaison,ST012,ST011,Full-time,2016-04-06,Y
+EMP0057,Erik Costa,Maintenance Technician,ST001,ST010,Full-time,2017-09-24,Y
+EMP0058,Maya Berg,Service Coordinator,ST002,ST003,Part-time,2017-06-03,Y
+EMP0059,Amina Nordin,Maintenance Technician,ST012,ST013,Full-time,2016-03-24,Y
+EMP0060,Amina Nyberg,Service Coordinator,ST004,ST011,Full-time,2022-04-01,Y
+EMP0061,Oskar Muller,Platform Assistant,ST010,ST003,Agency,2019-02-05,Y
+EMP0062,Theo Sharma,Platform Assistant,ST001,ST005,Full-time,2022-11-22,Y
+EMP0063,Erik Nordin,Customer Support Officer,ST006,ST002,Full-time,2020-02-02,Y
+EMP0064,Hanna Patel,Service Coordinator,ST006,ST002,Part-time,2021-01-25,Y

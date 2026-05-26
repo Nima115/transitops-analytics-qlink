@@ -1,0 +1,17 @@
+station_id,station_name,line_group,city_area,station_type,opened_year,platform_count,daily_passenger_volume,risk_band
+ST001,Central Terminal,Blue / Red,Downtown,Interchange,1978,8,126000,High
+ST002,Harbor Exchange,Blue,Waterfront,Interchange,1986,6,88000,High
+ST003,Northgate Junction,Green / Red,North Corridor,Interchange,1994,5,71000,Medium
+ST004,Riverside Market,Green,Riverside,Urban,2002,3,43000,Medium
+ST005,Oak Park,Green,West District,Neighborhood,1998,2,26000,Low
+ST006,Airport Connector,Silver,Airport Zone,Terminal,2011,4,65000,High
+ST007,Eastbridge,Red,East District,Urban,1990,4,52000,Medium
+ST008,University Square,Red,Campus,Urban,2007,3,57000,Medium
+ST009,South Ferry,Blue,South Waterfront,Terminal,1982,4,49000,Medium
+ST010,Civic Center,Blue / Gold,Downtown,Interchange,1975,7,98000,High
+ST011,Maple Yard,Gold,Maintenance Belt,Depot Adjacent,1969,2,18000,Low
+ST012,Westbrook,Gold,West District,Neighborhood,2001,2,22000,Low
+ST013,Medical District,Silver,Hospital Zone,Urban,2014,3,46000,Medium
+ST014,Old Town,Gold,Historic Core,Urban,1958,2,34000,Medium
+ST015,Expo Grounds,Silver,Events District,Event Station,2017,4,39000,Medium
+ST016,Lakeside,Green,North Waterfront,Neighborhood,2009,2,21000,Low
