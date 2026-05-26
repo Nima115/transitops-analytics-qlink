@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TransitOps Analytics Preview</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Operations Performance</p>
+        <h1>TransitOps Analytics</h1>
+      </div>
+      <nav aria-label="Dashboard sheets">
+        <a href="#overview" class="active">Executive</a>
+        <a href="#station">Station</a>
+        <a href="#incident">Incidents</a>
+        <a href="#staffing">Staffing</a>
+        <a href="#support">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="filters" aria-label="Current selections">
+        <span>Month: Jan 2025 - Apr 2026</span>
+        <span>Network: All lines</span>
+        <span>Risk band: All</span>
+        <span>Status: Open and resolved</span>
+      </section>
+
+      <section id="overview" class="sheet">
+        <div class="sheet-title">
+          <div>
+            <p class="eyebrow">Executive Overview</p>
+            <h2>Network service position</h2>
+          </div>
+          <p class="asof">CSV extract: 2026-04-30</p>
+        </div>
+
+        <div class="kpis">
+          <article class="kpi">
+            <span>Total incidents</span>
+            <strong>1,820</strong>
+            <small>all station logs</small>
+          </article>
+          <article class="kpi amber">
+            <span>Avg response</span>
+            <strong>23.9 min</strong>
+            <small>first response</small>
+          </article>
+          <article class="kpi green">
+            <span>Resolved cases</span>
+            <strong>1,811</strong>
+            <small>passenger support</small>
+          </article>
+          <article class="kpi red">
+            <span>Open cases</span>
+            <strong>630</strong>
+            <small>open, escalated, pending</small>
+          </article>
+          <article class="kpi">
+            <span>Staff coverage</span>
+            <strong>89.8%</strong>
+            <small>actual vs planned hours</small>
+          </article>
+        </div>
+
+        <div class="grid two">
+          <section class="panel">
+            <div class="panel-head">
+              <h3>Monthly incident trend</h3>
+              <span>last 16 months</span>
+            </div>
+            <div class="line-chart" aria-label="Monthly incident trend chart">
+              <i style="height: 42%"></i>
+              <i style="height: 48%"></i>
+              <i style="height: 51%"></i>
+              <i style="height: 47%"></i>
+              <i style="height: 55%"></i>
+              <i style="height: 58%"></i>
+              <i style="height: 53%"></i>
+              <i style="height: 62%"></i>
+              <i style="height: 59%"></i>
+              <i style="height: 67%"></i>
+              <i style="height: 72%"></i>
+              <i style="height: 79%"></i>
+              <i style="height: 71%"></i>
+              <i style="height: 65%"></i>
+              <i style="height: 68%"></i>
+              <i style="height: 61%"></i>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-head">
+              <h3>Busiest stations</h3>
+              <span>incident count</span>
+            </div>
+            <div class="rank-list">
+              <div><span>Central Terminal</span><b style="width: 100%">208</b></div>
+              <div><span>Harbor Exchange</span><b style="width: 86%">179</b></div>
+              <div><span>Civic Center</span><b style="width: 83%">172</b></div>
+              <div><span>Airport Connector</span><b style="width: 67%">140</b></div>
+              <div><span>Northgate Junction</span><b style="width: 62%">129</b></div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="station" class="sheet compact">
+        <div class="sheet-title">
+          <div>
+            <p class="eyebrow">Station Performance</p>
+            <h2>Risk, demand, and coverage</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Station</th>
+                <th>Risk</th>
+                <th>Incidents</th>
+                <th>Coverage</th>
+                <th>Open incidents</th>
+                <th>Manager action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Central Terminal</td>
+                <td><span class="tag high">High</span></td>
+                <td>208</td>
+                <td>88.4%</td>
+                <td>31</td>
+                <td>Review peak crowding plan</td>
+              </tr>
+              <tr>
+                <td>Civic Center</td>
+                <td><span class="tag high">High</span></td>
+                <td>172</td>
+                <td>87.9%</td>
+                <td>24</td>
+                <td>Escalator outage follow-up</td>
+              </tr>
+              <tr>
+                <td>Airport Connector</td>
+                <td><span class="tag med">Medium</span></td>
+                <td>140</td>
+                <td>90.1%</td>
+                <td>16</td>
+                <td>Queue support roster</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="incident" class="sheet compact">
+        <div class="sheet-title">
+          <div>
+            <p class="eyebrow">Incident Analytics</p>
+            <h2>Recurring operational issues</h2>
+          </div>
+        </div>
+        <div class="grid three">
+          <article class="panel">
+            <h3>Top incident types</h3>
+            <p class="metric">Platform crowding</p>
+            <p class="muted">Highest repeated issue flag rate at high-volume interchanges.</p>
+          </article>
+          <article class="panel">
+            <h3>SLA pressure</h3>
+            <p class="metric">Response breaches</p>
+            <p class="muted">Medical assistance and suspicious package events need fastest acknowledgement.</p>
+          </article>
+          <article class="panel">
+            <h3>Open backlog</h3>
+            <p class="metric">Old unresolved</p>
+            <p class="muted">A small number of older escalated incidents remain visible for manager review.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="staffing" class="sheet compact">
+        <div class="sheet-title">
+          <div>
+            <p class="eyebrow">Staffing & Shift Coverage</p>
+            <h2>Coverage gaps by shift</h2>
+          </div>
+        </div>
+        <div class="coverage-grid">
+          <span>Early</span><progress value="93" max="100"></progress>
+          <span>Day</span><progress value="91" max="100"></progress>
+          <span>Late</span><progress value="88" max="100"></progress>
+          <span>Night</span><progress value="84" max="100"></progress>
+        </div>
+      </section>
+
+      <section id="support" class="sheet compact">
+        <div class="sheet-title">
+          <div>
+            <p class="eyebrow">Passenger Support</p>
+            <h2>Case categories and handling</h2>
+          </div>
+        </div>
+        <div class="grid two">
+          <section class="panel">
+            <h3>Complaint mix</h3>
+            <div class="chips">
+              <span>Ticketing / Refund</span>
+              <span>Delay Compensation</span>
+              <span>Service Disruption Complaint</span>
+              <span>Accessibility Assistance</span>
+            </div>
+          </section>
+          <section class="panel">
+            <h3>Handling focus</h3>
+            <p class="muted">Track resolved versus unresolved cases, repeat contact, category SLA breaches, and station-level complaint concentration.</p>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
