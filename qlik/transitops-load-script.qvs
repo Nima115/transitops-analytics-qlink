@@ -71,11 +71,61 @@ LOAD
 FROM [lib://TransitOpsData/dim_date.csv]
 (txt, utf8, embedded labels, delimiter is ',', msq);
 
+LinkStationDate:
+LOAD DISTINCT
+    station_id & '|' & date_key AS %StationDateKey,
+    station_id,
+    Num(date_key) AS date_key
+FROM [lib://TransitOpsData/fact_incidents.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+CONCATENATE (LinkStationDate)
+LOAD DISTINCT
+    station_id & '|' & date_key AS %StationDateKey,
+    station_id,
+    Num(date_key) AS date_key
+FROM [lib://TransitOpsData/fact_support_cases.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+CONCATENATE (LinkStationDate)
+LOAD DISTINCT
+    station_id & '|' & date_key AS %StationDateKey,
+    station_id,
+    Num(date_key) AS date_key
+FROM [lib://TransitOpsData/fact_shifts.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+CONCATENATE (LinkStationDate)
+LOAD DISTINCT
+    station_id & '|' & date_key AS %StationDateKey,
+    station_id,
+    Num(date_key) AS date_key
+FROM [lib://TransitOpsData/fact_service_disruptions.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+CONCATENATE (LinkStationDate)
+LOAD DISTINCT
+    station_id & '|' & date_key AS %StationDateKey,
+    station_id,
+    Num(date_key) AS date_key
+FROM [lib://TransitOpsData/fact_response_times.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+LinkStationDate_Distinct:
+NoConcatenate
+LOAD DISTINCT
+    %StationDateKey,
+    station_id,
+    date_key
+RESIDENT LinkStationDate;
+
+DROP TABLE LinkStationDate;
+RENAME TABLE LinkStationDate_Distinct TO LinkStationDate;
+
 FactIncidents:
 LOAD
     incident_id,
-    Num(date_key) AS date_key,
-    station_id,
+    station_id & '|' & date_key AS %StationDateKey,
     incident_type_id,
     Timestamp(Timestamp#(opened_at, 'YYYY-MM-DD hh:mm:ss')) AS opened_at,
     Timestamp(Timestamp#(first_response_at, 'YYYY-MM-DD hh:mm:ss')) AS first_response_at,
@@ -96,8 +146,7 @@ FROM [lib://TransitOpsData/fact_incidents.csv]
 FactSupportCases:
 LOAD
     support_case_id,
-    Num(date_key) AS date_key,
-    station_id,
+    station_id & '|' & date_key AS %StationDateKey,
     Timestamp(Timestamp#(opened_at, 'YYYY-MM-DD hh:mm:ss')) AS case_opened_at,
     If(Len(Trim(closed_at)) = 0, Null(), Timestamp(Timestamp#(closed_at, 'YYYY-MM-DD hh:mm:ss'))) AS case_closed_at,
     case_category,
@@ -114,9 +163,8 @@ FROM [lib://TransitOpsData/fact_support_cases.csv]
 FactShifts:
 LOAD
     shift_id,
-    Num(date_key) AS date_key,
+    station_id & '|' & date_key AS %StationDateKey,
     Date(Date#(shift_date, 'YYYY-MM-DD')) AS shift_date,
-    station_id,
     staff_id,
     shift_type,
     Time(Time#(scheduled_start, 'hh:mm')) AS scheduled_start,
@@ -131,8 +179,7 @@ FROM [lib://TransitOpsData/fact_shifts.csv]
 FactServiceDisruptions:
 LOAD
     disruption_id,
-    Num(date_key) AS date_key,
-    station_id,
+    station_id & '|' & date_key AS %StationDateKey,
     line_group AS disruption_line_group,
     Timestamp(Timestamp#(started_at, 'YYYY-MM-DD hh:mm:ss')) AS disruption_started_at,
     Timestamp(Timestamp#(ended_at, 'YYYY-MM-DD hh:mm:ss')) AS disruption_ended_at,
@@ -149,8 +196,7 @@ LOAD
     response_id,
     source_type,
     source_id,
-    station_id,
-    Num(date_key) AS date_key,
+    station_id & '|' & date_key AS %StationDateKey,
     Num(acknowledged_minutes) AS acknowledged_minutes,
     If(Len(Trim(dispatch_minutes)) = 0, Null(), Num(dispatch_minutes)) AS dispatch_minutes,
     If(Len(Trim(site_arrival_minutes)) = 0, Null(), Num(site_arrival_minutes)) AS site_arrival_minutes,

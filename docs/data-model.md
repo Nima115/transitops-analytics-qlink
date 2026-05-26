@@ -39,6 +39,7 @@ Qlik associates fields by identical names. To keep the model clean:
 
 - Keep shared keys named consistently: `station_id`, `date_key`, `staff_id`, `incident_type_id`.
 - Avoid loading duplicate descriptive fields into facts when they already exist in dimensions.
+- Use a station-date link table when loading multiple fact tables in Qlik. Each row-level fact should carry a composite `%StationDateKey`, while the link table carries `%StationDateKey`, `station_id`, and `date_key`.
 - Consider a canonical date approach only if the app needs one shared date filter across opened, closed, shift, and disruption timestamps.
 - Use `monthly_operational_kpis` for executive trends where pre-aggregated station-month reporting is acceptable.
 - Use row-level facts for drill-down views and SLA diagnostics.
